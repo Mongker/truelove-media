@@ -9,6 +9,11 @@
             "date": 1660407442864,
             "name": "/media/truecrypt1/TrueLove/truelove-media/server/src/logs/debug/2022-08-13.log",
             "hash": "9a692768f4ad4d12ffbd83bc25fd21ed7c3c54316a5846c8e10bf6426db1b440"
+        },
+        {
+            "date": 1660412875845,
+            "name": "/media/truecrypt1/TrueLove/truelove-media/server/src/logs/debug/2022-08-14.log",
+            "hash": "ec8ce13fe96e6470b529fa3d7d2c3c93d128bd3d63b43f5c39791723339726a9"
         }
     ],
     "hashType": "sha256"
