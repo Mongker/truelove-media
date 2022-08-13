@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/media/truecrypt1/TrueLove/truelove-media/server/src/logs/debug/.1fadcc6c197a8b7f805739d94093bb23bb89600f-audit.json",
+    "files": [
+        {
+            "date": 1660407442864,
+            "name": "/media/truecrypt1/TrueLove/truelove-media/server/src/logs/debug/2022-08-13.log",
+            "hash": "9a692768f4ad4d12ffbd83bc25fd21ed7c3c54316a5846c8e10bf6426db1b440"
+        }
+    ],
+    "hashType": "sha256"
+}

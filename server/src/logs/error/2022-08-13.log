@@ -1,0 +1,12 @@
+2022-08-13 23:17:23 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/media/truecrypt1/TrueLove/truelove-media/server/node_modules/express/lib/application.js:635:24)
+    at App.listen (/media/truecrypt1/TrueLove/truelove-media/server/src/app.ts:32:14)
+    at Object.<anonymous> (/media/truecrypt1/TrueLove/truelove-media/server/src/server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (/media/truecrypt1/TrueLove/truelove-media/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (/media/truecrypt1/TrueLove/truelove-media/server/node_modules/ts-node/src/index.ts:1621:12)
