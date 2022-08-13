@@ -1,11 +1,14 @@
-import type { NextPage } from 'next'
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import type { NextApiRequest, NextApiResponse } from 'next';
+import axios from 'axios';
 
-const Home: NextPage = () => {
-  return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-  )
+type Data = {
+  name: string
 }
 
-export default Home
+export default function handler(
+    req: NextApiRequest,
+    res: NextApiResponse<Data>
+) {
+  res.status(200).redirect('/');
+}

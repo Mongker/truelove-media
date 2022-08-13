@@ -1,7 +1,11 @@
 import App from '@/app';
+
+// router
 import AuthRoute from '@routes/auth.route';
 import IndexRoute from '@routes/index.route';
 import UsersRoute from '@routes/users.route';
+
+// util
 import validateEnv from '@utils/validateEnv';
 
 validateEnv();
