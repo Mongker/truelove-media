@@ -1,0 +1,9 @@
+/.idea/
+/client/.idea
+/client/node_modules
+/client/.next
+/client/.build
+
+/server/node_modules
+/server/src/logs
+/server/.idea
